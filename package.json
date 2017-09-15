@@ -1,0 +1,26 @@
+{
+  "name": "cucm2",
+  "version": "1.0.0",
+  "description": "Toolkit for CUCM",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajdrew/cucm2.git"
+  },
+  "keywords": [
+    "CUCM",
+    "nodejs",
+    "express",
+    "SOAP",
+    "AXL"
+  ],
+  "author": "Andrew Petersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajdrew/cucm2/issues"
+  },
+  "homepage": "https://github.com/ajdrew/cucm2#readme"
+}
