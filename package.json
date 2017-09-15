@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ajdrew/cucm2/issues"
   },
-  "homepage": "https://github.com/ajdrew/cucm2#readme"
+  "homepage": "https://github.com/ajdrew/cucm2#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
