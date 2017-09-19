@@ -14,7 +14,7 @@ function getInstallerConfig () {
     const outPath = path.join(rootPath, 'release-builds')
 
     return Promise.resolve({
-       appDirectory: path.join(outPath, 'Electron\ tutorial\ app-win32-ia32/'),
+       appDirectory: path.join(outPath, 'cucm2-win32-ia32'),
        authors: 'Andrew Petersen',
        noMsi: true,
        outputDirectory: path.join(outPath, 'windows-installer'),
