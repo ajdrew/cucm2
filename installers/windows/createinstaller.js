@@ -18,7 +18,7 @@ function getInstallerConfig () {
        authors: 'Andrew Petersen',
        noMsi: true,
        outputDirectory: path.join(outPath, 'windows-installer'),
-       exe: 'CUCM 2.0.exe',
+       exe: 'CUCM2.exe',
        setupExe: 'CUCM2.exe',
        setupIcon: path.join(rootPath, 'icons', 'Applications.ico')
    })
