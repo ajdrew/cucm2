@@ -1,0 +1,13 @@
+<form id="myform" onsubmit="emailjs.sendForm('gmail', 'book_recommendation', this); return false;" method="post">
+  <div class="form-group">
+    <label>Email:</label>
+    <input type="email" name="to_email" />
+  </div>
+  <div class="form-group">
+    <label>Name:</label>
+    <input type="text" name="to_name" />
+    <input type="hidden" name="message_html" value="Information Diet by Clay Johnson" />
+  </div>
+  <br><br>
+  <button>Send</button>
+</form>

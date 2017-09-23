@@ -1,0 +1,3 @@
+git commit -am "bla"
+git push origin master
+git add .

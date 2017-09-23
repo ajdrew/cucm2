@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Andrew Petersen's personal website and test ground.">
+	<meta name="author" content="Andrew Petersen">
+	<title>Andrew Petersen</title>
+	<!-- Electron script imports - Start -->
+	<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+	<!-- JS -->
+	<script src="https://use.fontawesome.com/604f21bacc.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-animate.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.min.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/appscript.js"></script>
+	<!-- Electron script imports - End -->
+	<script>if (window.module) module = window.module;</script>
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<!-- EmailJS.com -->
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function() {
+			emailjs.init("user_gVy8L8J7oFU6WJAcqB6Ja");
+		})();
+	</script>
+</head>
+
+<body ng-app="tutorialWebApp">
+	<!--[if lt IE 7]>
+	<![endif]-->
+
+	<!-- CONTENT -->
+	<div ng-include src="'templates/header.html'"></div>
+	<div ng-view></div>
+	<div ng-include src="'templates/footer.html'"></div>
+
+</body>
+
+</html>
